@@ -1,7 +1,7 @@
 {
   "name": "arc4rand",
   "description": "a seedable random number generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Jason Allen",
     "email": "jasonallen@gmail.com"
