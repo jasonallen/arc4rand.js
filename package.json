@@ -1,0 +1,23 @@
+{
+  "name": "arc4rand",
+  "description": "a seedable random number generator",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jason Allen",
+    "email": "jasonallen@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonallen/arc4rand.js.git"
+  },
+  "devDependencies": {
+      "coffee-script": "*"
+    , "mocha": "*"
+    , "should": "*"
+  },
+  "keywords": [
+    "rng",
+    "random",
+    "seed"
+  ]
+}
