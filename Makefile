@@ -1,4 +1,3 @@
-MOCHA := ${CURDIR}/node_modules/.bin/mocha
 COFFEE := ${CURDIR}/node_modules/.bin/coffee
 
 main: lib/arc4rand.js
@@ -11,5 +10,5 @@ clean:
 
 .PHONY: test
 test: lib/arc4rand.js
-	$(MOCHA) -r should --compilers coffee:coffee-script test/*
+	@npm test
 

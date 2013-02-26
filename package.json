@@ -15,6 +15,9 @@
     , "mocha": "*"
     , "should": "*"
   },
+  "scripts": {
+      "test": "mocha -r should --compilers coffee:coffee-script test/*"
+  },
   "keywords": [
     "rng",
     "random",
