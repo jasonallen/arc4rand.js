@@ -10,6 +10,6 @@ clean:
 	rm ${CURDIR}/lib/*
 
 .PHONY: test
-test:
+test: lib/arc4rand.js
 	$(MOCHA) -r should --compilers coffee:coffee-script test/*
 

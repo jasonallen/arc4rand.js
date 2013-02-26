@@ -1,4 +1,4 @@
-Arc4Rand = require './../src/arc4rand'
+Arc4Rand = require './../lib/arc4rand'
 
 describe 'Arc4Rand', ->
 
