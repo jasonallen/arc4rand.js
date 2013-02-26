@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jasonallen/arc4rand.js.png?branch=master)](https://travis-ci.org/jasonallen/arc4rand.js)
+
 _arc4rand_ is a seedable random number generator. Javascript's builtin rand
 function is not seedable - or rather, it's hard-coded to be seeded with the
 current Date/Time. 
